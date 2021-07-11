@@ -3,7 +3,7 @@ import random
 
 
 def get_words():
-    with open('./archivos/data.txt', 'r', encoding='utf-8') as f:
+    with open('./data.txt', 'r', encoding='utf-8') as f:
         words = [word.strip().lower() for word in f]
     return words
 
